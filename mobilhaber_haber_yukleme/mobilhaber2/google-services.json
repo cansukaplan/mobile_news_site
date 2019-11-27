@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "84357699223",
+    "firebase_url": "https://mobilhaber-42cb5.firebaseio.com",
+    "project_id": "mobilhaber-42cb5",
+    "storage_bucket": "mobilhaber-42cb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84357699223:android:f256dd0e258a5ac4",
+        "android_client_info": {
+          "package_name": "com.mobilhaber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84357699223-bbqp7ddk4p5bm7hh13kanomh335osdlv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTKPbsxo450yU-9pSEGtqKX9FD3hxJqjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84357699223-bbqp7ddk4p5bm7hh13kanomh335osdlv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

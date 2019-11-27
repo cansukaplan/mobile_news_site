@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">mobilhaber</string>
+    <string name="kategoriSec">Kategori Seçiniz</string>
+    <string-array name="kategoriler">
+        <item>Tumu</item>
+        <item>Gündem</item>
+        <item>Ekonomi</item>
+        <item>Siyaset</item>
+        <item>Magazin</item>
+        <item>Spor</item>
+    </string-array>
+</resources>

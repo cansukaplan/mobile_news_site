@@ -1,0 +1,29 @@
+group 'com.mobilhaber'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    // Firebase Java SDK
+    compile 'com.google.firebase:firebase-admin:5.8.0'
+// https://mvnrepository.com/artifact/commons-io/commons-io
+    compile group: 'commons-io', name: 'commons-io', version: '2.6'
+// https://mvnrepository.com/artifact/us.raudi.pushraven/Pushraven
+   // compile group: 'us.raudi.pushraven', name: 'Pushraven', version: '1.0.2'
+    compile group: 'us.raudi', name: 'pushraven', version: '1.0.2'
+
+    // Sundial Job Scheduler
+    compile 'org.knowm:sundial:2.1.1'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+// https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
+    testCompile group: 'org.slf4j', name: 'slf4j-simple', version: '1.6.2'
+
+
+}
